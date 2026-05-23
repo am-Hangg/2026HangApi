@@ -1,0 +1,12 @@
+{
+  "name": "java-script",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "amrit",
+  "type": "module",
+  "main": "first.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
