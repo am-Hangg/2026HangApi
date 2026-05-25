@@ -22,6 +22,7 @@ const config = {
     return: process.env.KHALTI_RETURN_URL || "",
   },
   resendEmailApiKey: process.env.RESEND_EMAIL_API_KEY || "",
+  geminiApiKey:process.env.GEMINI_API_KEY || "",
 };
 
 export default config;
