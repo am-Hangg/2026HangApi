@@ -6,7 +6,7 @@ const ai = new GoogleGemini({ apiKey: config.geminiApiKey});
 const promptAi = async (promptMessage) => {
   const response = await ai.models.generateContent({
     model: "gemini2.5-flash",
-    content: "why is the sky blue?",
+    content: promptMessage,
   });
   console.log (response.text);
 };
